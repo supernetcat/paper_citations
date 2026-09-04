@@ -1,0 +1,4 @@
+label,doi,pmid,arxiv,title,journal,year,source_input
+example-numpy,10.1038/s41586-020-2649-2,,,,Nature,2020,sample
+example-2dmaterials,10.1088/2053-1583/ac4e13,,,,2D Materials,2022,sample
+example-transplant-int,10.1111/tri.13828,,,,Transplant International,2021,sample

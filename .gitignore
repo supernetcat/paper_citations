@@ -1,0 +1,21 @@
+# PyInstaller
+__pycache__/
+*.pyc
+.venv*/
+build/
+dist/
+*.spec.log
+
+# 运行时数据（个人/工作数据不入库）
+outputs/
+data/input/*.csv
+!data/input/sample_input.csv
+data/custom/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.local
+.env

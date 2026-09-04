@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-citations"
+version = "0.1.0"
+description = "论文被引量多源本地数据集 (OpenAlex + Semantic Scholar/Crossref/Europe PMC → SQLite/CSV/JSON + 查询模块)"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+paper-citations = "paper_citations.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
